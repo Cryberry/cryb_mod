@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CrybMod implements ModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("Cryberrys Mod");
+    public static final Logger LOGGER = LoggerFactory.getLogger("Cryberry's Mod");
 
     @Override
     public void onInitialize(ModContainer mod) {

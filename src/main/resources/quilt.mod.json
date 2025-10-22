@@ -11,12 +11,12 @@
                 "Cryberry": "Owner"
             },
             "contact": {},
-            "icon": "assets/example_mod/icon.png",
+            "icon": "assets/cryb_mod/icon.png",
             "license": "Unlicense"
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "init": "io.github.Cryberry.cryb_mod"
+            "init": "io.github.Cryberry.cryb_mod.CrybMod"
         },
         "depends": [
             {
