@@ -1,6 +1,6 @@
-package net.quiltmc.users..cryb_mod.mixin;
+package io.github.Cryberry.cryb_mod.mixin;
 
-import net.quiltmc.users..cryb_mod.CrybMod;
+import io.github.Cryberry.cryb_mod.CrybMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
