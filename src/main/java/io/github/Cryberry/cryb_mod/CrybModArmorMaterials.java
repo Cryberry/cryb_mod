@@ -1,6 +1,7 @@
 package io.github.Cryberry.cryb_mod;
 
 
+import io.github.Cryberry.cryb_mod.items.CrybModItems;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;

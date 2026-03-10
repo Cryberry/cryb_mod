@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="&quot;-AoutRefMapFile=C:\Users\scien\Desktop\MC Modding\cryb_mod\build\classes\java\main\cryb_mod-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=C:\Users\scien\Desktop\MC Modding\cryb_mod\build\quilt-loom-cache\mixin-map-org.quiltmc.quilt-mappings.1_21.1.21+build.19-v2.main.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\scien\.gradle\caches\quilt-loom\1.21\org.quiltmc.quilt-mappings.1_21.1.21+build.19-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cryb_mod.test" options="&quot;-AoutRefMapFile=C:\Users\scien\Desktop\MC Modding\cryb_mod\build\classes\java\test\test-cryb_mod-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=C:\Users\scien\Desktop\MC Modding\cryb_mod\build\quilt-loom-cache\mixin-map-org.quiltmc.quilt-mappings.1_21.1.21+build.19-v2.test.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\scien\.gradle\caches\quilt-loom\1.21\org.quiltmc.quilt-mappings.1_21.1.21+build.19-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>

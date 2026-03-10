@@ -1,9 +1,9 @@
 package io.github.Cryberry.cryb_mod;
 
 import com.google.common.base.Suppliers;
+import io.github.Cryberry.cryb_mod.items.CrybModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.item.ToolMaterials;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
@@ -11,7 +11,7 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum CrybModToolMaterials implements ToolMaterial {
-    ENDERGEM(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 1337, 9.9F, 3.3F, 18, () -> Ingredient.ofItems(CrybModItems.ENDERGEM));
+    ENDERGEM(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 1800, 9.9F, 9.0F, 21, () -> Ingredient.ofItems(CrybModItems.ENDERGEM));
 
     private final TagKey<Block> incorrectForDropsBlocks;
     private final int durability;

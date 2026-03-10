@@ -1,5 +1,7 @@
 package io.github.Cryberry.cryb_mod;
 
+import io.github.Cryberry.cryb_mod.components.CrybModGripComponent;
+import io.github.Cryberry.cryb_mod.items.CrybModItems;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
@@ -16,5 +18,6 @@ public class CrybMod implements ModInitializer {
         CrybModArmorMaterials.initialize();
         LOGGER.info("Registering {} Items!", mod.metadata().name());
         CrybModItems.register(mod);
+        CrybModGripComponent.registerGripComponent();
     }
 }
